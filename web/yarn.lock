@@ -1639,6 +1639,13 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
   integrity sha512-3YDiu347mtVtjpyV3u5kVqQLP242c06zwDOgpeRnybmXlYYsLbtTrUBUm8i8srONt+FWobl5aibnU1030PeeuA==
 
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
 babel-eslint@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
@@ -1650,6 +1657,11 @@ babel-eslint@^10.1.0:
     "@babel/types" "^7.7.0"
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
+
+babel-helper-vue-jsx-merge-props@^2.0.2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha512-gsLiKK7Qrb7zYJNgiXKpXblxbV5ffSwR0f5whkPAaBAR4fhi6bwRZxX9wBlIc5M/v8CCkXUbXZL4N/nSE97cqg==
 
 babel-loader@^8.1.0:
   version "8.1.0"
@@ -2822,6 +2834,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3077,6 +3096,11 @@ dotenv@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
+dropzone@^5.5.1:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/dropzone/-/dropzone-5.7.1.tgz#8e41a85879ff145562e8fcce39c6ff619dce81be"
+  integrity sha512-eqcJafupMKRlVUihZtsLkzLn02WTPUMHeImP5ZtWm3ERObC/dv15te0qqn/X2rEKaSqRC0pNTHUBPgrPWcP52w==
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -3741,6 +3765,13 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.11.0"
@@ -4987,6 +5018,11 @@ launch-editor@^2.2.1:
   dependencies:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
+
+leaflet@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.6.0.tgz#aecbb044b949ec29469eeb31c77a88e2f448f308"
+  integrity sha512-CPkhyqWUKZKFJ6K8umN5/D2wrJ2+/8UIpXppY7QDnUZW5bZL5+SEI2J7GBpwh4LIupOKqbNSQXgqmrEJopHVNQ==
 
 leven@^3.1.0:
   version "3.1.0"
@@ -8322,6 +8358,11 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+vee-validate@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-3.3.2.tgz#2eba99ea0bc6d5c76c999dd4f298dbcb32edb17e"
+  integrity sha512-Q/Fo8E34xa4K6oVd8CTPLG8ZXn7JziinN7sJgvAWt78moI67tFGqbot+mY1hUPh9ZMb/pWPoSNOnGxeEc/Vsyw==
+
 vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
@@ -8352,6 +8393,13 @@ vue-eslint-parser@^7.0.0:
     espree "^6.2.1"
     esquery "^1.0.1"
     lodash "^4.17.15"
+
+vue-feather-icons@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/vue-feather-icons/-/vue-feather-icons-5.0.0.tgz#f804304907d648667b879525b094bab1f7413140"
+  integrity sha512-uvi2l3i0aeRRzG3vX24/AH+8BkcXkSJboAv8XkUZ6aPkEC9n6LXDcKp5/ho+3moVQ9wlga3N6BjL89pmkHBzPw==
+  dependencies:
+    babel-helper-vue-jsx-merge-props "^2.0.2"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
@@ -8394,6 +8442,18 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue2-dropzone@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/vue2-dropzone/-/vue2-dropzone-3.6.0.tgz#b4bb4b64de1cbbb3b88f04b24878e06780a51546"
+  integrity sha512-YXC1nCWIZvfa98e/i6h+EshZCkFSxFEh0Sxr9ODfThAPPDVhAzLLlz/4XIx0NGO1QeSy6htwSstte47R7vVhLQ==
+  dependencies:
+    dropzone "^5.5.1"
+
+vue2-leaflet@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/vue2-leaflet/-/vue2-leaflet-2.5.2.tgz#b89c056fe741c7ce7cb9df5aca90809092e5eb8d"
+  integrity sha512-9eN0TxqCkyXbaI7waO3u+n0OAezkxjb811tstG6gRLAZy/ocXlNLC3JqTWE0FwBUlqBbMpyzsIk6LrEhs8oVBQ==
 
 vue@^2.6.11:
   version "2.6.11"

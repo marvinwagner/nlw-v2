@@ -1,32 +1,44 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@700&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  //background-color: #F0F0F5;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+:root {
+  --primary-color: #34CB79;
+  --title-color: #322153;
+  --text-color: #6C6C80;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e8e8e8;
+  color: var(--text-color);
+}
+
+body, input, button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--title-color);
+  font-family: Ubuntu;
+}
+
 </style>
