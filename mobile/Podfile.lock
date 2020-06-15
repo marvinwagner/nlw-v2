@@ -1,0 +1,22 @@
+PODS:
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - SwiftSVG (2.3.2)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - SwiftSVG (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SwiftSVG
+
+SPEC CHECKSUMS:
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  SwiftSVG: ca7f64e403b8ea7ea8eba8c823b83ba4a059834c
+
+PODFILE CHECKSUM: 8e5f1f0d2b9f749381f6ae82d35a4c46c4044261
+
+COCOAPODS: 1.9.1
