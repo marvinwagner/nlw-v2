@@ -1,7 +1,7 @@
 # Ecoleta
 
 Projeto utilizando uma stack diferente do NextLevelWeek [original](https://github.com/marvinwagner/nlw)
-utilizando Vue.js para web
+utilizando Vue.js para web e swift para iOS
 
 ![home](./home.png)
 ![home](./site.png)
@@ -21,3 +21,6 @@ Criar um arquivo .env na pasta "server" com a chave API_URL=http://192.168.XX.X:
 cd web
 yarn serve
 ```
+
+## Swift
+Abra com o xcode o arquivo `Ecoleta.xcworkspace`
